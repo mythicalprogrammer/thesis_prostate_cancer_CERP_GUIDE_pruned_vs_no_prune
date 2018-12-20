@@ -26,4 +26,5 @@ clean_result_data <- function(raw_dir_path, cleaned_data_name) {
   write.csv(results_dataframe,
             file = cleaned_data_name,
             row.names = FALSE)
+  return(results_dataframe)
 }
