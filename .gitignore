@@ -39,6 +39,7 @@ rsconnect/
 # program
 guide
 # data file generation
+cleaned_data/*
 kfolds_data/*
 kfold_partitions/*
 guide_data/*
